@@ -1,4 +1,4 @@
-FROM tensorflow:latest
+FROM python3:latest
 
 RUN apt-get update
 RUN mkdir /opt/app
